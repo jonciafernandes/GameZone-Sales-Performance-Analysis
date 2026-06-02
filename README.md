@@ -1,6 +1,6 @@
 # GameZone Sales Performance Analysis
 
-#### Project Background
+### Project Background
 
 GameZone is an online retailer specializing in gaming consoles, gaming accessories, and gaming-related electronics. The company sells products through multiple marketing channels and serves customers across various regions. As sales data accumulates over time, it becomes increasingly important to understand customer purchasing behaviour, product performance, and the effectiveness of different acquisition channels.
 
@@ -24,7 +24,7 @@ The complete Jupyter Notebook containing data cleaning, preprocessing, explorato
 
 The Tableau workbook used to create the dashboard and visualizations can be found [here](https://github.com/jonciafernandes/GameZone-Sales-Performance-Analysis/blob/main/Gamezone%20Data.twbx).
 
-#### Data Structure & Initial Checks
+### Data Structure & Initial Checks
 The GameZone dataset contains sales transaction records from 2019 to 2021, including information on products, orders, marketing channels, purchase platforms, and regions.
 
 <img width="411" height="361" alt="image" src="https://github.com/user-attachments/assets/5fd3b6d5-6e87-4ea9-943a-61670941273c" />    <img width="281" height="103" alt="image" src="https://github.com/user-attachments/assets/a5c44058-f651-4552-9dfb-41a68649a6c4" />
@@ -41,29 +41,34 @@ Before analysis, the data was explored and validated in Jupyter Notebook through
 
 The analysis identified missing values in the Region and Marketing Channel fields, which were considered when interpreting regional and customer value metrics.
 
-#### Deep Dive into Insights
+### Deep Dive into Insights
 
 **Sales Performance**
+
 •	GameZone generated a total GMV of $6.14M across 21,719 orders, with an average order value (AOV) of $281.16.
 
 •	Sales experienced a decline in January 2020 before recovering and reaching peaks in April, September, and December 2020, indicating potential seasonal demand patterns.
 
 **Product Performance**
+
 •	The 27-inch 4K Gaming Monitor generated the highest revenue ($1.95M), despite recording fewer orders than the Nintendo Switch, which achieved the highest order volume (10,386 orders).
 
 •	Revenue generation was driven by both product popularity and unit pricing, with higher-priced products contributing disproportionately to total sales.
 
 **Regional Performance**
+
 •	The US/Null region contributed the highest sales, followed by EMEA and APAC.
 
 •	APAC recorded the highest average historical Customer Lifetime Value (LTV), suggesting stronger long-term customer value among available regional data.
 
 **Marketing Channel Performance**
+
 •	The Direct marketing channel generated the highest revenue, significantly outperforming all other channels.
 
 •	Customers acquired through the Affiliate channel exhibited the highest average historical LTV, while Email and Social Media channels recorded the lowest customer value.
 
 **Data Quality Observations**
+
 •	Missing values were identified within the Region and Marketing Channel fields, which may influence regional and customer value analyses and should be considered when interpreting results.
 
 #### Recommendations
